@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+  'primary': #9c27b0,
+  'primary-2': #ba68c8,
+  'primary-light-1': #cf9bd8,
+  'primary-light-2': #e1bee7,
+  'primary-light': #f3e5f5,
+);
+
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+$enable-deprecation-messages: true;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
